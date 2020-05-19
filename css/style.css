@@ -1,0 +1,540 @@
+.fone {
+    background: url(..//img/fones/Фон1X.png);
+}
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.menu {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 32px 0 0 27px;
+}
+.menu a {
+    color: #ffffff;
+}
+.menu ul {
+    display: flex;
+    box-sizing: border-box;
+    width: 379px;
+    margin: 21px 346px 0 24px;
+}
+.menu li {
+    padding-right: 15px;
+    transition: 0.5s;
+}
+.menu li:hover {
+    font-size: 20px;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+.menu-picture {
+    border: 1px solid #9eb2a7;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #9eb2a7;
+    height: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.menu-picture:hover .search-form {
+    display: block;
+}
+.search-form {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 342px;
+    height: 85px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    z-index: 100;
+    padding: 30px 0 0 20px;
+}
+.search-form input {
+    border: 1px solid #d3d3d2;
+    border-radius: 10px;
+    padding: 20px 140px 20px 20px;
+}
+.search-form input::placeholder {
+    font-size: 14px;
+}
+.menu-picture:hover .password-form {
+    display: block;
+}
+.password-form {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 278px;
+    height: 215px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    z-index: 100;
+}
+.password-form input {
+    border: 1px solid #d3d3d2;
+    border-radius: 10px;
+    padding: 10px 50px 10px 20px;
+    margin: 20px 0px 0px 20px;
+}
+.password-form input::placeholder {
+    font-size: 14px;
+}
+.password-button {
+    display: inline-block;
+    margin-top: 39px;
+    margin-left: 20px;
+}
+.password-button span {
+    color: #ffffff;
+    border: 1px solid #ef6040;
+    background-color: #ef6040;
+    border-radius: 35px;
+    box-shadow: #b64830 1px 2px 2px;
+    padding: 16px 25px 14px 26px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.password-button span:hover {
+    background-color: #f38166;
+    box-shadow: #f38166 1px 1px 1px;
+    transition: 0.4s;
+}
+.password-button span:active {
+    background-color: #e05e3d;
+    box-shadow: inset 1px 2px 2px #b64830;
+    transition: 0.4s;
+}
+.registration {
+    display: inline-block;
+    color: #323232;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.new-password {
+    display: inline-block;
+    border-bottom: 1px solid #adacaa;
+    margin-bottom: 10px;
+}
+.new-registration {
+    border-bottom: 1px solid #adacaa;
+}
+.info-clock {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 32px;
+}
+.info-phone {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: right;
+    margin: 8px 32px 0 0;
+}
+.icecream-one {
+    position: absolute;
+    left: 268px;
+    top: 93px;
+    z-index: 2;
+}
+.icecream-two {
+    position: absolute;
+    right: 290px;
+    top: 139px;
+    z-index: 1;
+}
+.block1-text {
+    text-align: center;
+    color: #ffffff;
+    width: 641px;
+    font-size: 60px;
+    position: absolute;
+    top: 397px;
+    left: 280px;
+    z-index: 4;
+}
+.bottom {
+    position: relative;
+    margin-top: 428px;
+    margin-left: 459px;
+    z-index: 4;
+}
+.bottom span {
+    font-size: 31px;
+    color: #ffffff;
+    border: 1px solid #ef6040;
+    background-color: #ef6040;
+    border-radius: 35px;
+    box-shadow: #b64830 1px 2px 2px;
+    transition: 0.4s;
+    box-sizing: border-box;
+    padding: 18px 43px 16px 42px;
+}
+.bottom span:hover {
+    background-color: #f38166;
+    box-shadow: #f38166 1px 1px 1px;
+    transition: 0.4s;
+}
+.bottom span:active {
+    background-color: #e05e3d;
+    box-shadow: inset 1px 2px 2px #b64830;
+    transition: 0.4s;
+}
+.around {
+    margin-top: -20px;
+    margin-left: 26px;
+}
+.around img {
+    padding-right: 10px;
+}
+.block2 {
+    margin-top: 61px;
+    margin-left: 26px;
+    display: flex;
+}
+.raspberry {
+    min-height: 232px;
+    width: 563px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-image: url(..//img/malinovyy_fon_1485.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+.raspberry-text1 {
+    font-size: 23px;
+    padding: 25px 272px 20px 22px;
+}
+.raspberry-text2 {
+    font-size: 12px;
+    padding: 0 31px 44px 22px;
+}
+.raspberry-bottom {
+    padding: 44px 22px 24px 375px;
+}
+.raspberry-bottom a {
+    color: #ffffff;
+}
+.raspberry-bottom span {
+    border: 1px solid #ef6341;
+    border-radius: 30px;
+    background-color: #ef6341;
+    padding: 16px 24px 14px 23px;
+    font-size: 12px;
+    transition: 0.4s;
+}
+.raspberry-bottom span:hover {
+    background-color: #f38166;
+    transition: 0.4s;
+}
+.raspberry-bottom span:active {
+    background-color: #e05e3d;
+    box-shadow: inset 1px 2px 2px #b64830;
+    transition: 0.4s;
+}
+.chocolate {
+    z-index: 3;
+    min-height: 232px;
+    width: 563px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-left: 23px;
+    background-image: url(..//img/99px_ru_wallpaper_221084_fon_iz_dolek_shokolada_i_shokoladnih_konfet.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+.block3 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 39px 26px 38px 27px;
+    color: #ffffff;
+}
+.hit-fone {
+    transition: all 0.5s;
+    text-align: center;
+    margin-right: 26px;
+}
+.hit-fone:hover {
+    border: 1px solid #9bafa3;
+    background-color: #9bafa3;
+    margin-right: 26px;
+    padding: 5px 10px 15px 10px;
+    text-align: center;
+}
+.hit-bottom {
+    padding-top: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(30px);
+    transition: all 0.5s;
+}
+
+.hit-fone:hover .hit-bottom {
+    transform: translateY(0px);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hit-bottom span {
+    color: #ffffff;
+    border: 1px solid #ef603f;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #ef603f;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.hit-bottom span:hover {
+    background-color: #f38166;
+    transition: 0.4s;
+}
+.hit-bottom span:active {
+    background-color: #e05e3d;
+    box-shadow: inset 1px 2px 2px #b64830;
+    transition: 0.4s;
+}
+.hit {
+    min-height: 267px;
+    width: 267px;
+
+    position: relative;
+}
+.hit-picture {
+    position: relative;
+    margin-right: 26px;
+}
+.hit-logo {
+    position: absolute;
+    z-index: 2;
+}
+.hit-coast {
+    position: absolute;
+    bottom: 58px;
+    font-size: 35px;
+}
+.hit-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+.block4 {
+    min-height: 309px;
+    width: 95%;
+    background: url(..//img/_vaflya_fon_1526.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 26px;
+    color: #323232;
+}
+.text-block4 {
+    font-size: 24px;
+
+    padding: 30px 127px 27px 23px;
+}
+.text-and-picture {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22px;
+}
+.text div {
+    width: 476px;
+    margin-right: 26px;
+}
+.text {
+    display: flex;
+}
+.text img {
+    margin: 0 7px 39px 0;
+}
+.block5 {
+    display: flex;
+    margin-left: 26px;
+    margin-top: 37px;
+}
+.block5-one {
+    min-height: 223px;
+    width: 563px;
+    background-color: white;
+    background-image: url(..//img/klubnichnyy_fon_1569.png);
+    background-size: cover;
+    background-position: right;
+    border-radius: 14px;
+    margin-right: 18px;
+    color: #323232;
+}
+.block5-two {
+    min-height: 223px;
+    width: 560px;
+    background-image: url(..//img/fones/почта.png);
+    background-size: cover;
+    border-radius: 14px;
+}
+.block5-three {
+    margin: 5px;
+    background-color: #ffffff;
+    min-height: 212px;
+    width: 550px;
+    border-radius: 14px;
+}
+.block5-text {
+    font-size: 16px;
+    margin: 28px 0 13px 22px;
+}
+.block5-text2 {
+    font-size: 24px;
+    margin-left: 22px;
+    text-decoration: underline;
+    width: 285px;
+}
+.block5-three-text {
+    padding: 34px 22px 37px 22px;
+    color: #5a5a5a;
+    font-size: 16px;
+}
+
+.map {
+    margin-top: 37px;
+    position: relative;
+}
+
+.map-icon {
+    display: inline-block;
+    width: 80px;
+    height: 140px;
+    position: absolute;
+    left: 560px;
+    top: 70px;
+}
+.map-form {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    color: #323232;
+    border: 1px solid #fefefe;
+    border-radius: 20px;
+    width: 303px;
+    height: 250px;
+    padding: 33px 0 31px 26px;
+    background-color: #fefefe;
+    margin-right: 26px;
+}
+.map-form-text1 {
+    width: 157px;
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+.map-form-adress {
+    width: 240px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+.map-form-phone {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0 9px 0;
+}
+.map-form-bottom span {
+    border: 1px solid #ee5c3e;
+    border-radius: 30px;
+    background-color: #ee5c3e;
+    padding: 14px 28px 13px 20px;
+    font-size: 18px;
+}
+.map-form-bottom {
+    margin-top: 39px;
+}
+.map-form-bottom a {
+    color: #ffffff;
+}
+footer {
+    min-height: 80px;
+}
+.icon-social {
+    display: flex;
+    justify-content: center;
+    margin: 34px 0 0 27px;
+    box-sizing: border-box;
+}
+.twit {
+    margin-right: 10px;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #c2cec7;
+    border-radius: 50%;
+    background-image: url(..//img/social/Твитер1X.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+.twit:hover {
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+    width: 49px;
+    height: 49px;
+}
+.inst {
+    margin-right: 10px;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #c2cec7;
+    border-radius: 50%;
+    background-image: url(..//img/social/inst.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+.inst:hover {
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+    width: 49px;
+    height: 49px;
+}
+.facebook {
+    margin-right: 10px;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #c2cec7;
+    border-radius: 50%;
+    background-image: url(..//img/social/ФБ1X.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+.facebook:hover {
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+    width: 49px;
+    height: 49px;
+}
+.vk {
+    width: 39px;
+    height: 39px;
+    border: 3px solid #c2cec7;
+    border-radius: 50%;
+    background-image: url(..//img/social/ВК1X.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+.vk:hover {
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+    width: 49px;
+    height: 49px;
+}
